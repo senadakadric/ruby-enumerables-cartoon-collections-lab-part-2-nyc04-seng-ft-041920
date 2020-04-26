@@ -41,8 +41,10 @@ def find_valid_calls(planeteer_calls)
 #   end 
 # end 
 
-planeteer_calls.each do |element|
-  puts element
+planeteer_calls.find do |element|
+  valid_calls.each do |ele|
+  element == ele
+  end
 end
 
 end
