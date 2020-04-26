@@ -45,6 +45,7 @@ planeteer_calls.find do |element|
   valid_calls.each do |ele|
   element == ele
   end
+  element
 end
 
 end
